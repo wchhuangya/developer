@@ -27,6 +27,7 @@ import com.wchhuangya.developer.animator.PosAlphaActivity;
 import com.wchhuangya.developer.contacts.UserProfileActivity;
 import com.wchhuangya.developer.core.BaseActivity;
 import com.wchhuangya.developer.fragment.TrainingFragment;
+import com.wchhuangya.developer.listview.ListviewArrayActivity;
 import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
 import com.wchhuangya.developer.savedata.FileSaveActivity;
@@ -124,6 +125,7 @@ public class MainActivity extends BaseActivity {
 		getAPIGuidesData("guides");
 		getGuidesContactsData("guidescontacts");
 		getOfficalSampleData("sample");
+		getListviewData("listview");
 	}
 	
 	@Override
@@ -318,6 +320,33 @@ public class MainActivity extends BaseActivity {
 		map.put("activity", SpinnerActivity.class);
 		map.put("hasChild", false);
 		singleList.add(map);
+		
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.sample_listview));
+		map.put("activity", "listview");
+		map.put("hasChild", true);
+		singleList.add(map);
+		
+		mAllMap.put(sign, singleList);
+	}
+	/**
+	 * 获官方API Guide中联系人的数据
+	 * @param sign - 要保存数据的map的键
+	 */
+	private void getListviewData(String sign){
+		List<Map<String,Object>> singleList = new ArrayList<Map<String,Object>>();
+		Map<String, Object> map = new LinkedHashMap<String, Object>();
+		
+		map.put("title", getResources().getString(R.string.listview_array));
+		map.put("activity", ListviewArrayActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		/*map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.sample_listview));
+		map.put("activity", "listview");
+		map.put("hasChild", true);
+		singleList.add(map);*/
 		
 		mAllMap.put(sign, singleList);
 	}

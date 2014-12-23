@@ -132,6 +132,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".listview.ListviewArrayActivity"
+            android:label="@string/sample_listview"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
         <!-- officalsample 结束 -->
 
         <meta-data
