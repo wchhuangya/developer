@@ -1,0 +1,187 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 通用样式 开始 -->
+    <!-- 分隔线(浅色) -->
+    <style name="common_devider_light">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/common_devider_light</item>
+    </style>
+    <!-- 分隔线(深色) -->
+    <style name="common_devider_dark">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/common_devider_dark</item>
+    </style>
+    <!-- 宽、高的样式（宽-fillparent；高-fillparent） -->
+    <style name="common_wh_ff">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 宽、高的样式（宽-fillparent；高-wrapcontent） -->
+    <style name="common_wh_fw">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽、高的样式（宽-wrapcontent；高fillparent-） -->
+    <style name="common_wh_wf">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <!-- 宽、高的样式（宽-wrapcontent；高wrapcontent-） -->
+    <style name="common_wh_ww">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 右边更多按钮的图片 -->
+    <style name="common_right_more">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/common_right_more</item>
+    </style>
+    <!-- 从底部弹出菜单的动画 -->
+    <style name="common_pop_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <!-- 列表样式 -->
+    <style name="list_view" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarSize">10.0dip</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@color/common_devider_light</item>
+        <item name="android:dividerHeight">1.0dip</item>
+    </style>
+    <!-- 通用的蓝色按钮 -->
+    <style name="common_blue_btn">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:background">@drawable/common_blue_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="common_editable_et">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:background">@drawable/common_edittext_change</item>
+    </style>
+    <style name="common_disedit_et">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/space_40</item>
+        <item name="android:editable">false</item>
+        <item name="android:background">@drawable/common_edittext_change</item>
+    </style>
+    <!-- EditText右边的图片 -->
+    <style name="common_et_right_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+        <item name="android:layout_marginRight">@dimen/space_5</item>
+    </style>
+    <!-- 通用样式 结束 -->
+    
+    <!-- 顶部工具栏样式 开始 -->
+    <style name="top_btn">
+        <item name="android:layout_width">@dimen/common_top_btn_width</item>
+        <item name="android:layout_height">@dimen/common_top_btn_height</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <!-- 顶部工具栏样式 结束 -->
+    
+    <!-- 对话框样式 开始 -->
+    <style name="tipsDialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item><!-- 是否启用标题栏 -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- 是否使用背景半透明 -->
+    </style>
+    <!-- tipsDialog动画 -->
+    <style name="tipsAnimation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <!-- tipsDialog顶部动画 -->
+    <style name="tipsAnimation_top" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter_top</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit_top</item>
+    </style>
+    <!-- 对话框样式 结束 -->
+    
+    <!-- alarm样式 开始 -->
+    <style name="alarm_rl">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/space_10</item>
+        <item name="android:paddingBottom">@dimen/space_10</item>
+        <item name="android:paddingLeft">@dimen/space_15</item>
+        <item name="android:paddingRight">@dimen/space_15</item>
+    </style>
+    <style name="alarm_main_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/common_main_title</item>
+    </style>
+    <style name="alarm_sub_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/common_sub_title</item>
+        <item name="android:layout_marginTop">@dimen/space_5</item>
+    </style>
+    <style name="alarm_repeat_window_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="alarm_repeat_window_tv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/common_main_title</item>
+        <item name="android:layout_marginTop">@dimen/space_15</item>
+        <item name="android:layout_marginBottom">@dimen/space_15</item>
+        <item name="android:layout_marginLeft">@dimen/space_20</item>
+        <item name="android:layout_marginRight">@dimen/space_10</item>
+    </style>
+    <style name="alarm_repeat_window_iv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/common_img_tips</item>
+        <item name="android:background">@drawable/alarm_repeat_current_arrow</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <!-- alarm样式 结束 -->
+    
+    <!-- database样式 开始 -->
+    <style name="database_fl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/space_10</item>
+    </style>
+    <!-- database样式 结束 -->
+
+</resources>

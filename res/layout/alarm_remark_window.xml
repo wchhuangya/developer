@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_wh_ff"
+    android:background="#00000000"
+    >
+    
+    <LinearLayout 
+    	android:id="@+id/alarm_window_ll"
+    	style="@style/common_wh_fw"
+	    android:padding="@dimen/space_20"
+	    android:orientation="vertical"
+	    android:background="@color/common_bg"
+	    android:layout_alignParentBottom="true"
+        >
+	    <TextView 
+	        style="@style/common_wh_fw"
+	        android:gravity="center"
+	        android:text="@string/alarm_remark_main"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/alarm_remark_window_et"
+	        style="@style/common_wh_fw"
+	        android:hint="@string/alarm_remark_hint"
+	        android:singleLine="true"
+	        android:layout_marginTop="@dimen/space_20"
+	        android:layout_marginLeft="@dimen/space_20"
+	        android:layout_marginRight="@dimen/space_20"
+	        />
+	    
+	    <LinearLayout 
+	        style="@style/common_wh_fw"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="@dimen/space_20"
+	        >
+	        <Button 
+	            android:id="@+id/alarm_remark_window_cancel_btn"
+	            android:layout_width="0dp"
+	            android:layout_height="@dimen/space_40"
+	            android:layout_weight="1"
+	            android:background="@drawable/alarm_remark_left_btn"
+	            android:text="@string/common_cancel"
+	            android:textColor="@drawable/main_to_sub_color"
+	            />
+	        <Button 
+	            android:id="@+id/alarm_remark_window_ok_btn"
+	            android:layout_width="0dp"
+	            android:layout_height="@dimen/space_40"
+	            android:layout_weight="1"
+	            android:background="@drawable/alarm_remark_right_btn"
+	            android:text="@string/common_ok"
+	            android:textColor="@drawable/main_to_sub_color"
+	            />
+	    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

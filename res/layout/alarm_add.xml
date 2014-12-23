@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_top_lmr"/>
+    
+    <View style="@style/common_devider_dark"/>
+    
+    <RelativeLayout 
+        android:id="@+id/alarm_add_repeat_rl"
+        style="@style/alarm_rl"
+        >
+        <TextView 
+            android:id="@+id/alarm_add_repeat_main_tv"
+            style="@style/alarm_main_title"
+            android:text="@string/alarm_repeat_main"
+            />
+        <TextView 
+            android:id="@+id/alarm_add_repeat_sub_tv"
+            style="@style/alarm_sub_title"
+            android:text="@string/alarm_repeat_window_one"
+            android:layout_below="@+id/alarm_add_repeat_main_tv"
+            />
+        <ImageView 
+            style="@style/common_right_more"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/common_img_tips"
+            />
+    </RelativeLayout>
+    <View 
+        style="@style/common_devider_light"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        />
+    <RelativeLayout 
+        android:id="@+id/alarm_add_vibration_rl"
+        style="@style/alarm_rl"
+        >
+        <TextView 
+            android:id="@+id/alarm_add_vibration_main_tv"
+            style="@style/alarm_main_title"
+            android:text="@string/alarm_vibration_main"
+            />
+        <TextView 
+            style="@style/alarm_sub_title"
+            android:text="@string/alarm_vibration_sub"
+            android:layout_below="@+id/alarm_add_vibration_main_tv"
+            />
+        <CheckBox 
+            android:id="@+id/alarm_vibration_cb"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/alarm_vibration_switch"
+            android:checked="true"
+            />
+    </RelativeLayout>
+    <View 
+        style="@style/common_devider_light"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        />
+    <RelativeLayout 
+        android:id="@+id/alarm_add_remark_rl"
+        style="@style/alarm_rl"
+        >
+        <TextView 
+            android:id="@+id/alarm_add_remark_main_tv"
+            style="@style/alarm_main_title"
+            android:text="@string/alarm_remark_main"
+            />
+        <TextView 
+            android:id="@+id/alarm_add_remark_sub_tv"
+            style="@style/alarm_sub_title"
+            android:text="@string/alarm_remark_sub"
+            android:singleLine="false"
+            android:layout_below="@+id/alarm_add_remark_main_tv"
+            />
+        <ImageView 
+            style="@style/common_right_more"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/common_img_tips"
+            />
+    </RelativeLayout>
+    <View 
+        style="@style/common_devider_light"
+        android:layout_marginLeft="@dimen/space_15"
+        android:layout_marginRight="@dimen/space_15"
+        />
+
+</LinearLayout>

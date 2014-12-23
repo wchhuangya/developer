@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!--
+        Creates a spinner widget called Spinner01, within the Linear Layout
+        The prompt text comes from the string "planet_prompt" in strings.xml
+    -->
+    <Spinner 
+        android:id="@+id/spinner_spr"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:prompt="@string/spinner_prompt">
+    </Spinner>
+
+    <!--
+        Creates a TextView called SpinnerResult, below the spinner.
+    -->
+    <TextView 
+        android:id="@+id/spinner_result_tv" 
+        android:layout_height="fill_parent" 
+        android:textSize="10pt"
+        android:textStyle="bold" 
+        android:gravity="center"
+        android:layout_width="fill_parent">
+    </TextView>
+
+</LinearLayout>

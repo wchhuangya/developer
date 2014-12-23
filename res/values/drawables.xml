@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- top工具栏 开始 -->
+    <drawable name="top_left_btn_text_normal">#333333</drawable>
+    <drawable name="top_left_btn_text_pressed">#ffffff</drawable>
+    <!-- top工具栏 结束 -->
+    
+    <!-- API Guides 开始 -->
+    <!-- alarm 开始 -->
+    <drawable name="alarm_line_normal">#fbfbfb</drawable>
+    <drawable name="alarm_line_pressed">#ededed</drawable>
+    <!-- alarm 结束 -->
+    <!-- API Guides 结束 -->
+</resources>

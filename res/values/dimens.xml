@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 常用尺寸定义 开始 -->
+    <dimen name="space_5">5dip</dimen>
+    <dimen name="space_10">10dip</dimen>
+    <dimen name="space_15">15dip</dimen>
+    <dimen name="space_20">20dip</dimen>
+    <dimen name="space_25">25dip</dimen>
+    <dimen name="space_30">30dip</dimen>
+    <dimen name="space_35">35dip</dimen>
+    <dimen name="space_40">40dip</dimen>
+    <dimen name="space_45">45dip</dimen>
+    <dimen name="space_50">50dip</dimen>
+    <dimen name="space_55">55dip</dimen>
+    <dimen name="space_60">60dip</dimen>
+    <dimen name="space_65">65dip</dimen>
+    <dimen name="space_70">70dip</dimen>
+    <dimen name="space_75">75dip</dimen>
+    <dimen name="space_80">80dip</dimen>
+    <dimen name="space_85">85dip</dimen>
+    <dimen name="space_90">90dip</dimen>
+    <dimen name="space_95">95dip</dimen>
+    <dimen name="space_100">100dip</dimen>
+    <!-- 常用尺寸定义 结束 -->
+    
+    <!-- 顶部工具栏 开始 -->
+    <dimen name="common_top_height">50dip</dimen>
+    <dimen name="common_top_btn_width">45dip</dimen>
+    <dimen name="common_top_btn_height">30dip</dimen>
+    <!-- 顶部工具栏 结束 -->
+    
+    <!-- 对话框 开始 -->
+    <dimen name="small_text_size">14sp</dimen>
+    <!-- 对话框 结束 -->
+</resources>

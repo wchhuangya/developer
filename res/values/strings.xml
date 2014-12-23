@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">开发者</string>
+    
+    <!-- 通用 开始 -->
+    <string name="common_ok">确定</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_img_tips">这是一张图片</string>
+    <string name="common_submit">提交</string>
+    <!-- 通用 结束 -->
+    
+    <!-- MainActivity 开始 -->
+    <string name="offical_training">官方Training中的例子</string>
+    <string name="msg_push">消息推送</string>
+    <string name="feed_back">友盟信息反馈</string>
+    <string name="api_guides">官方API Guides中的例子</string>
+    <string name="offical_sample">官方示例</string>
+    <!-- MainActivity 结束 -->
+    
+	<string name="main_title_desc">进入</string>
+	
+	<!-- training 开始 -->
+	<string name="animation_cross_fading_text">那次是我不经意的离开，成为我这许久不变的悲哀。想让你忘却愁绪忘记关怀，放开这纷纷扰扰自由自在。这次是我真的决定离开，成为我这许久不变的悲哀。于是淡漠了繁华只为你开怀，要陪你远离寂寞自由自在。</string>
+	<!-- 数据存储 开始 -->
+	<string name="shared_preference_switch1">开关1</string>
+	<string name="shared_preference_switch2">开关2</string>
+	<string name="shared_preference_switch3">开关3</string>
+	<string name="shared_preference_add">添加activity的私有数据</string>
+	<string name="shared_preference_clear">清除activity的私有数据</string>
+	<string name="shared_preference_no_settings">暂无配置</string>
+	<string name="file_save_internal">内部存储路径</string>
+	<string name="file_save_internal_dir">getFilesDir():</string>
+	<string name="file_save_cache_dir">getCacheDir():</string>
+	<string name="file_save_cache">外部存储路径</string>
+	<string name="file_save_list">文件列表</string>
+	<string name="file_save_save">保存文件</string>
+	<string name="file_save_clear">清除文件</string>
+	<string name="file_save_external">外部存储路径</string>
+	<string name="file_save_external_unvaliable">外部存储不可用</string>
+	<string name="file_save_external_public_dir">getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS):</string>
+	<string name="file_save_external_private_dir">getExternalFilesDir():</string>
+	<string name="database_device_id">当前的设备号</string>
+	<string name="database_post">你的行业</string>
+	<string name="database_post_default">---请选择行业---</string>
+	<string name="database_age">你的年龄段</string>
+	<string name="database_age_default">---请选择年龄段---</string>
+	<string name="database_useful">你认为最有用的功能</string>
+	<string name="database_useful_hint">最有用的功能</string>
+	<string-array name="database_post_array">
+	    <item>计算机</item>
+	    <item>教育</item>
+	    <item>培训</item>
+	    <item>保险业</item>
+	    <item>服务</item>
+	    <item>金融</item>
+	    <item>政府机关</item>
+	    <item>机械制造</item>
+	    <item>医疗卫生</item>
+	</string-array>
+	<string-array name="database_age_array">
+	    <item>12岁~17岁</item>
+	    <item>19岁~22岁</item>
+	    <item>23岁~30岁</item>
+	    <item>31岁~40岁</item>
+	    <item>41~50岁</item>
+	    <item>50岁以上</item>
+	</string-array>
+	<!-- 数据存储 结束 -->
+	<!-- training 结束 -->
+
+	<!-- app guides 开始 -->
+	<string name="alarm_repeat_main">重复</string>
+	<string name="alarm_repeat_window_one">只响一次</string>
+	<string name="alarm_repeat_window_everyday">每天</string>
+	<string name="alarm_repeat_window_mon_to_fir">周一到周五</string>
+	<string name="alarm_repeat_window_custom">自定义</string>
+	<string name="alarm_custom_window_mon">星期一</string>
+	<string name="alarm_custom_window_tue">星期二</string>
+	<string name="alarm_custom_window_wed">星期三</string>
+	<string name="alarm_custom_window_thu">星期四</string>
+	<string name="alarm_custom_window_fri">星期五</string>
+	<string name="alarm_custom_window_sat">星期六</string>
+	<string name="alarm_custom_window_sun">星期日</string>
+	<string name="alarm_vibration_main">振动</string>
+	<string name="alarm_vibration_sub">响铃时振动</string>
+	<string name="alarm_remark_main">备注</string>
+	<string name="alarm_remark_sub">闹钟备注</string>
+	<string name="alarm_remark_hint">输入闹钟备注</string>
+	<string name="animation_pos_alpha_btn">位置+alpha</string>
+	<!-- app guides 结束 -->
+	
+	<!-- officalsample 开始 -->
+	<string name="spinner_prompt">请选择一个行星</string>
+	<string name="spinner_res">结果</string>
+	<string-array name="spinner_plants">
+	    <item>水星</item>
+	    <item>金星</item>
+	    <item>地球</item>
+	    <item>火星</item>
+	    <item>木星</item>
+	    <item>土星</item>
+	    <item>天王星</item>
+	    <item>海王星</item>
+	    <item>冥王星</item>
+	</string-array>
+	<!-- officalsample 结束 -->
+</resources>

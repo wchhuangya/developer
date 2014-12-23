@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/common_wh_ff"
+    android:background="#00000000"
+    >
+    
+    <LinearLayout 
+    	android:id="@+id/alarm_window_ll"
+    	style="@style/common_wh_fw"
+	    android:orientation="vertical"
+	    android:background="@color/common_bg"
+	    android:layout_alignParentBottom="true"
+        >
+        
+        <LinearLayout 
+            android:id="@+id/alarm_repeat_window_one_ll"
+            style="@style/alarm_repeat_window_line"
+            >
+            <TextView 
+                android:id="@+id/alarm_repeat_window_one_tv"
+                style="@style/alarm_repeat_window_tv"
+                android:text="@string/alarm_repeat_window_one"
+                android:textColor="@color/alarm_repeat_window_current"
+                />
+        </LinearLayout>
+        <View style="@style/common_devider_light" />
+        <LinearLayout 
+            android:id="@+id/alarm_repeat_window_everyday_ll"
+            style="@style/alarm_repeat_window_line"
+            >
+            <TextView 
+                android:id="@+id/alarm_repeat_window_everyday_tv"
+                style="@style/alarm_repeat_window_tv"
+                android:text="@string/alarm_repeat_window_everyday"
+                />
+        </LinearLayout>
+        <View style="@style/common_devider_light" />
+        <LinearLayout 
+            android:id="@+id/alarm_repeat_window_mon_to_fir_ll"
+            style="@style/alarm_repeat_window_line"
+            >
+            <TextView 
+                android:id="@+id/alarm_repeat_window_mon_to_fir_tv"
+                style="@style/alarm_repeat_window_tv"
+                android:text="@string/alarm_repeat_window_mon_to_fir"
+                />
+        </LinearLayout>
+        <View style="@style/common_devider_light" />
+        <LinearLayout 
+            android:id="@+id/alarm_repeat_window_custom_ll"
+            style="@style/alarm_repeat_window_line"
+            >
+            <TextView 
+                android:id="@+id/alarm_repeat_window_custom_tv"
+                style="@style/alarm_repeat_window_tv"
+                android:text="@string/alarm_repeat_window_custom"
+                />
+        </LinearLayout>
+        <View style="@style/common_devider_light" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>

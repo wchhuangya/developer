@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_error_msg_credit_card">请输入有效的银行卡/信用卡号码！</string>
+    <string name="validation_error_msg_digits">只能输入数字！</string>
+    <string name="validation_error_msg_is_date">请输入有效的日期！</string>
+    <string name="validation_error_msg_is_time">请输入有效的时间！</string>
+    <string name="validation_error_msg_is_date_time">请输入有效的日期时间！</string>
+    <string name="validation_error_msg_is_future">允许的时间是现在之后，请重试！</string>
+    <string name="validation_error_msg_is_past">允许的时间是现在之前，请重试！</string>
+    <string name="validation_error_msg_id_card">请输入有效的身份证号码！</string>
+    <string name="validation_error_msg_email">请输入有效的邮件地址！</string>
+    <string name="validation_error_msg_equals">请输入相同的内容！</string>
+    <string name="validation_error_msg_notequals">请选择内容！</string>
+    <string name="validation_error_msg_host">请输入有效的主机地址！</string>
+    <string name="validation_error_msg_http_url">请输入有效的网址！</string>
+    <string name="validation_error_msg_ipv4">请输入有效的IP地址！</string>
+    <string name="validation_error_msg_max_length">允许的内容长度最大为{$1}，请重试！</string>
+    <string name="validation_error_msg_max_value">允许的最大值为{$1}，请重试！</string>
+    <string name="validation_error_msg_min_length">允许的内容长度至少为{$1}，请重试！</string>
+    <string name="validation_error_msg_min_value">允许的最小值为{$1}，请重试！</string>
+    <string name="validation_error_msg_mobile_phone">请输入有效的手机号码！</string>
+    <string name="validation_error_msg_not_blank">输入的内容不能为任何空值！</string>
+    <string name="validation_error_msg_numeric">请输入有效的数值！</string>
+    <string name="validation_error_msg_range_length">允许的内容长度范围在[{$1},{$2}]之间，请重试！</string>
+    <string name="validation_error_msg_range_value">允许的数值范围在[{$1},{$2}]之间，请重试！</string>
+    <string name="validation_error_msg_required">这是必填选项，请填写！</string>
+    <string name="validation_error_msg_vehicle">请输入有效的车牌号码！</string>
+</resources>

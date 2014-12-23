@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="defaultbg">#ebebeb</color><!-- 默认背景色 -->
+	<color name="listviewseperate">#dddddd</color><!-- listview分隔线颜色 -->
+	
+	<!-- 全局 开始 -->
+	<color name="common_devider_light">#eeeeee</color>
+	<color name="common_devider_dark">#cccccc</color>
+	<color name="common_bg">#fbfbfb</color>
+	<color name="common_top_bg">#efefef</color>
+	<color name="common_main_title">#333333</color>
+	<color name="common_sub_title">#aaaaaa</color>
+	<color name="common_blue_normal_btn">#5bc2e6</color>
+	<color name="common_blue_pressed_btn">#17b4ed</color>
+	<!-- 全局 结束 -->
+	
+	<!-- app guides 开始 -->
+	<!-- alarm 开始 -->
+	<color name="alarm_repeat_window_current">#f27b42</color>
+	<!-- alarm 结束 -->
+	<!-- app guides 结束 -->
+	
+	<!-- 对话框 开始 -->
+	<color name="ditialviewlinecolor">#D6D6D6</color>
+	<!-- 对话框 结束 -->
+</resources>

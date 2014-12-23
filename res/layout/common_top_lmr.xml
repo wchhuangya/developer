@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/common_top_height"
+    android:background="@color/common_top_bg"
+    >
+    
+    <Button 
+        android:id="@+id/common_top_lmr_left_btn"
+        style="@style/top_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_centerVertical="true"
+        android:background="@drawable/top_left_btn"
+        android:padding="0dp"
+        android:textColor="@drawable/top_left_btn_text_color"
+        android:gravity="center"
+        />
+    <TextView 
+        android:id="@+id/common_top_lmr_middle_tv"
+        style="@style/common_wh_fw"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:layout_toRightOf="@+id/common_top_lmr_left_btn"
+        android:layout_toLeftOf="@+id/common_top_lmr_right_btn"
+        android:layout_marginLeft="@dimen/space_5"
+        android:layout_marginRight="@dimen/space_5"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        />
+    <Button 
+        android:id="@+id/common_top_lmr_right_btn"
+        style="@style/top_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_centerVertical="true"
+        android:background="@drawable/top_right_btn"
+        android:padding="0dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

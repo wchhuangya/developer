@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- training 开始 -->
+    <string name="training_fragment">Fragmenta示例（平板和手机）</string>
+    <string name="training_save_data">数据存储</string>
+    <string name="training_shared_preference">sharedpreference用法</string>
+    <string name="training_file_save">文件存储</string>
+    <string name="training_database">sqlite数据库</string>
+    <string name="animation_bouncing_ball">魔幻小球</string>
+    <string name="animation_cross_fading">淡入淡出</string>
+    <!-- training 结束 -->
+    
+    <!-- 消息推送 开始 -->
+    <string name="push_jig">极光消息推送</string>
+    <string name="push_xinge">信鸽消息推送</string>
+    <!-- 消息推送 结束 -->
+    
+    <!-- api guid 开始 -->
+    <string name="guides_alarm_set">设置闹钟</string>
+    <string name="guides_alarm_add">添加闹钟</string>
+    <string name="guides_animator_pos_alpha">位置和alpha动画</string>
+    <string name="guides_contacts">联系人</string>
+    <string name="guides_user_profile">联系人之用户配置</string>
+    <!-- api guid 结束 -->
+    
+    <!-- officalsample 开始 -->
+    <string name="sample_spinner">Spinner控件用法示例</string>
+    <!-- officalsample 结束 -->
+</resources>
