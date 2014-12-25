@@ -26,6 +26,7 @@ public class ListviewArrayActivity extends ListActivity {
 		
 		// 使用一个现成的ListAdapter，该适配器把数组里的字符串匹配到TextView上
 		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data));
+		//该方法设置是否可以通过键盘输入的字符来过滤掉不需要的选项，定位到需要的选项
 		getListView().setTextFilterEnabled(true);
 	}
 	

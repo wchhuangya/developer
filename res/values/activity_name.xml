@@ -27,5 +27,6 @@
     <string name="sample_spinner">Spinner控件用法示例</string>
     <string name="sample_listview">ListView控件用法示例</string>
     <string name="listview_array">数据来源于数组</string>
+    <string name="listview_cursor">数据来源于指向数据加的游标</string>
     <!-- officalsample 结束 -->
 </resources>

@@ -134,7 +134,13 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".listview.ListviewArrayActivity"
-            android:label="@string/sample_listview"
+            android:label="@string/listview_array"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".listview.ListviewCursorActivity"
+            android:label="@string/listview_cursor"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />

@@ -28,6 +28,7 @@ import com.wchhuangya.developer.contacts.UserProfileActivity;
 import com.wchhuangya.developer.core.BaseActivity;
 import com.wchhuangya.developer.fragment.TrainingFragment;
 import com.wchhuangya.developer.listview.ListviewArrayActivity;
+import com.wchhuangya.developer.listview.ListviewCursorActivity;
 import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
 import com.wchhuangya.developer.savedata.FileSaveActivity;
@@ -342,11 +343,11 @@ public class MainActivity extends BaseActivity {
 		map.put("hasChild", false);
 		singleList.add(map);
 		
-		/*map = new LinkedHashMap<String, Object>();
-		map.put("title", getResources().getString(R.string.sample_listview));
-		map.put("activity", "listview");
-		map.put("hasChild", true);
-		singleList.add(map);*/
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.listview_cursor));
+		map.put("activity", ListviewCursorActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
 		
 		mAllMap.put(sign, singleList);
 	}
