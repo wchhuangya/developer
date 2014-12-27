@@ -22,7 +22,7 @@ import com.wchhuangya.developer.core.BaseActivity;
 /**
  * 联系人表中的用户配置
  * ContactsContract.Contacts 表里仅仅只有一行包含了设备用户的配置数据。这一行的数据描述了设备的用户而不是用户的某个联系人。
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-11-30 下午9:07:13	

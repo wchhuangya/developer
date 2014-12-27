@@ -16,7 +16,7 @@ import android.support.v4.app.FragmentTransaction;
  * <p>
  * 官方Training里Fragment的例子
  * </p>
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-23 下午12:50:13	

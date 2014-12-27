@@ -11,7 +11,7 @@ import android.text.TextUtils;
  * <p>
  * 字符串帮助类
  * </p>
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-27 下午2:03:58	

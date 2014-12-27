@@ -24,7 +24,7 @@ import com.wchhuangya.developer.util.SharedPreferenceHelper;
 
 /**
  * SharedPreference用法演示
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-12-4 上午11:21:43	

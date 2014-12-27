@@ -30,6 +30,7 @@ import com.wchhuangya.developer.fragment.TrainingFragment;
 import com.wchhuangya.developer.listview.ListviewArrayActivity;
 import com.wchhuangya.developer.listview.ListviewCursor2Activity;
 import com.wchhuangya.developer.listview.ListviewCursorActivity;
+import com.wchhuangya.developer.listview.ListviewCustomActivity;
 import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
 import com.wchhuangya.developer.savedata.FileSaveActivity;
@@ -38,7 +39,7 @@ import com.wchhuangya.developer.umeng.FeedbackActivity;
 
 /**
  * 程序入口
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-22 下午9:06:58	
@@ -353,6 +354,12 @@ public class MainActivity extends BaseActivity {
 		map = new LinkedHashMap<String, Object>();
 		map.put("title", getResources().getString(R.string.listview_cursor2));
 		map.put("activity", ListviewCursor2Activity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.listview_custom));
+		map.put("activity", ListviewCustomActivity.class);
 		map.put("hasChild", false);
 		singleList.add(map);
 		

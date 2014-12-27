@@ -14,7 +14,7 @@ import com.wchhuangya.developer.core.BaseActivity;
  * <p>
  * 友盟的信息反馈页面
  * </p>
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-22 下午10:44:34	

@@ -13,7 +13,7 @@ import android.os.Bundle;
 
 /**
  * manifest文件的助手类
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-27 下午4:22:27	
