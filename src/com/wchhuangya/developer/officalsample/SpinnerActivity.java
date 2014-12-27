@@ -25,7 +25,7 @@ import com.wchhuangya.developer.util.SharedPreferenceHelper;
 
 /**
  * spinner用法演示
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-12-16 下午3:52:55	
@@ -80,7 +80,7 @@ public class SpinnerActivity extends BaseActivity {
 	}
 	/**
 	 * 实现了OnItemSelectedListener接口的回调监听类。
-	 * @company gsww
+	 * @company WSuperman
 	 * @project developer
 	 * @author wchhuangya
 	 * @date 2014-12-17 下午3:47:43	

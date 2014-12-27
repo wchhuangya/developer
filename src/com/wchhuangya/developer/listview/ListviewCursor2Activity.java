@@ -18,7 +18,7 @@ import android.widget.TextView;
 /**
  * 演示列表数据来源于数组的ListView，使用SimpleAdapter
  * 
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-12-27 上午9:17:08	

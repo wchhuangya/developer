@@ -16,7 +16,7 @@ import com.wchhuangya.developer.core.DeveloperApplication;
 
 /**
  * SharedPreference助手类
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-11-18 下午4:23:36	

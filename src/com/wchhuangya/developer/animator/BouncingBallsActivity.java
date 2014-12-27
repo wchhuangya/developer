@@ -13,7 +13,7 @@ import com.wchhuangya.developer.core.BaseActivity;
  * <p>
  * 官方动画示例：背景色渐变、程序生成颜色不同的小球、生成的小球在运动
  * </p>
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-9-8 下午9:23:38	

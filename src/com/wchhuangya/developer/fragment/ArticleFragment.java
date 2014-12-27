@@ -19,7 +19,7 @@ import android.widget.TextView;
  * <p>
  * 官方Training里Fragment的例子--显示内容的fragment
  * </p>
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-8-25 上午11:35:17	

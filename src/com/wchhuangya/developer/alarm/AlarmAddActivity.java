@@ -34,7 +34,7 @@ import com.wchhuangya.developer.util.SharedPreferenceHelper;
 
 /**
  * 闹钟设置类
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-11-13 下午2:08:10	

@@ -25,7 +25,7 @@ import com.wchhuangya.developer.util.TelephoneHelper;
 
 /**
  * 数据库存储演示类
- * @company gsww
+ * @company WSuperman
  * @project developer
  * @author wchhuangya
  * @date 2014-12-11 上午9:24:34	
