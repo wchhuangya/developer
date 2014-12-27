@@ -17,7 +17,7 @@ import com.wchhuangya.developer.core.BaseActivity;
  * <p>
  * 官方Training-淡入淡出
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-9-9 上午10:24:24	

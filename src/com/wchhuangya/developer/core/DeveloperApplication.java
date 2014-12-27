@@ -13,7 +13,7 @@ import android.content.Context;
  * <p>
  * 全局的应用类
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-8-25 下午9:55:10	

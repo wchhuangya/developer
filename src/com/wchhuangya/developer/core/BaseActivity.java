@@ -33,7 +33,7 @@ import com.wchhuangya.developer.util.CompleteQuit;
  * <p>
  * Activity的基类
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-8-22 下午9:11:06	

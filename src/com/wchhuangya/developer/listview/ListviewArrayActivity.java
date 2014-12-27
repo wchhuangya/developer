@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 
 /**
  * 演示列表数据来源于数组的ListView
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-23 下午4:53:57	

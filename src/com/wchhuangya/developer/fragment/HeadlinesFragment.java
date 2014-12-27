@@ -21,7 +21,7 @@ import android.widget.ListView;
  * <p>
  * 官方Training里Fragment的例子--显示标题的fragment
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-8-23 下午6:52:39	

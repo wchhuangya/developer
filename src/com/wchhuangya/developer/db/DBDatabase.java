@@ -12,7 +12,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * 示例数据库的数据库操作类
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-16 上午11:41:39	

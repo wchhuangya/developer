@@ -15,7 +15,7 @@ import android.text.TextUtils;
  * 手机设备的助手类
  * PS：该类不能直接实例化，得使用Context.getSystemService(Context.TELEPHONY_SERVICE)方法来获得该类的引用。
  * 当手机状态发生变化时，系统会发出通知，也可以注册一个监听来接收这些通知。
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-8-27 下午4:31:28	

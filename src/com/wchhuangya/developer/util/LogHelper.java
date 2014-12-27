@@ -12,7 +12,7 @@ import android.util.Log;
 
 /**
  * 日志助手类
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-9 下午4:53:21	
