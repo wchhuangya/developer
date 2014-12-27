@@ -18,7 +18,7 @@ import android.content.DialogInterface;
  * <p>
  * 完全退出帮助类
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project AndroidStudy
  * @author wchhuangya
  * @date 2014-1-12 11:35:59	

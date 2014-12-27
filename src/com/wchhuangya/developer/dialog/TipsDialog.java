@@ -16,7 +16,7 @@ import com.wchhuangya.developer.R;
 
 /**
  * 自定义对话框。分为三种进入方式：从顶部向下，从底部向上，中间；
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-11-25 上午11:54:36	

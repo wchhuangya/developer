@@ -14,7 +14,7 @@ import android.widget.SimpleCursorAdapter;
 
 /**
  * 演示列表数据来源于数组的ListView
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-24 下午2:06:16	

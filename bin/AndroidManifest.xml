@@ -132,30 +132,6 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".listview.ListviewArrayActivity"
-            android:label="@string/listview_array"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".listview.ListviewCursorActivity"
-            android:label="@string/listview_cursor"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".listview.ListviewCursor2Activity"
-            android:label="@string/listview_cursor2"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".listview.ListviewCustomActivity"
-            android:label="@string/listview_custom"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="adjustResize" />
         <!-- officalsample 结束 -->
 
         <meta-data

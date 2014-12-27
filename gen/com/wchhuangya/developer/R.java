@@ -799,74 +799,74 @@ public final class R {
         public static final int user_profile=0x7f03001a;
     }
     public static final class string {
-        public static final int UMAppUpdate=0x7f060071;
-        public static final int UMBreak_Network=0x7f060069;
-        public static final int UMDialog_InstallAPK=0x7f060075;
-        public static final int UMGprsCondition=0x7f06006f;
-        public static final int UMIgnore=0x7f060073;
-        public static final int UMNewVersion=0x7f06006b;
-        public static final int UMNotNow=0x7f060072;
-        public static final int UMTargetSize=0x7f06006e;
-        public static final int UMToast_IsUpdating=0x7f060074;
-        public static final int UMUpdateCheck=0x7f060076;
-        public static final int UMUpdateContent=0x7f06006c;
-        public static final int UMUpdateNow=0x7f060070;
-        public static final int UMUpdateSize=0x7f06006d;
-        public static final int UMUpdateTitle=0x7f06006a;
-        public static final int alarm_custom_window_fri=0x7f060041;
-        public static final int alarm_custom_window_mon=0x7f06003d;
-        public static final int alarm_custom_window_sat=0x7f060042;
-        public static final int alarm_custom_window_sun=0x7f060043;
-        public static final int alarm_custom_window_thu=0x7f060040;
-        public static final int alarm_custom_window_tue=0x7f06003e;
-        public static final int alarm_custom_window_wed=0x7f06003f;
-        public static final int alarm_remark_hint=0x7f060048;
-        public static final int alarm_remark_main=0x7f060046;
-        public static final int alarm_remark_sub=0x7f060047;
+        public static final int UMAppUpdate=0x7f06006c;
+        public static final int UMBreak_Network=0x7f060064;
+        public static final int UMDialog_InstallAPK=0x7f060070;
+        public static final int UMGprsCondition=0x7f06006a;
+        public static final int UMIgnore=0x7f06006e;
+        public static final int UMNewVersion=0x7f060066;
+        public static final int UMNotNow=0x7f06006d;
+        public static final int UMTargetSize=0x7f060069;
+        public static final int UMToast_IsUpdating=0x7f06006f;
+        public static final int UMUpdateCheck=0x7f060071;
+        public static final int UMUpdateContent=0x7f060067;
+        public static final int UMUpdateNow=0x7f06006b;
+        public static final int UMUpdateSize=0x7f060068;
+        public static final int UMUpdateTitle=0x7f060065;
+        public static final int alarm_custom_window_fri=0x7f06003c;
+        public static final int alarm_custom_window_mon=0x7f060038;
+        public static final int alarm_custom_window_sat=0x7f06003d;
+        public static final int alarm_custom_window_sun=0x7f06003e;
+        public static final int alarm_custom_window_thu=0x7f06003b;
+        public static final int alarm_custom_window_tue=0x7f060039;
+        public static final int alarm_custom_window_wed=0x7f06003a;
+        public static final int alarm_remark_hint=0x7f060043;
+        public static final int alarm_remark_main=0x7f060041;
+        public static final int alarm_remark_sub=0x7f060042;
         /**  数据存储 结束 
  training 结束 
  app guides 开始 
          */
-        public static final int alarm_repeat_main=0x7f060038;
-        public static final int alarm_repeat_window_custom=0x7f06003c;
-        public static final int alarm_repeat_window_everyday=0x7f06003a;
-        public static final int alarm_repeat_window_mon_to_fir=0x7f06003b;
-        public static final int alarm_repeat_window_one=0x7f060039;
-        public static final int alarm_vibration_main=0x7f060044;
-        public static final int alarm_vibration_sub=0x7f060045;
+        public static final int alarm_repeat_main=0x7f060033;
+        public static final int alarm_repeat_window_custom=0x7f060037;
+        public static final int alarm_repeat_window_everyday=0x7f060035;
+        public static final int alarm_repeat_window_mon_to_fir=0x7f060036;
+        public static final int alarm_repeat_window_one=0x7f060034;
+        public static final int alarm_vibration_main=0x7f06003f;
+        public static final int alarm_vibration_sub=0x7f060040;
         public static final int animation_bouncing_ball=0x7f060005;
         public static final int animation_cross_fading=0x7f060006;
         /**  training 开始 
          */
-        public static final int animation_cross_fading_text=0x7f06001f;
-        public static final int animation_pos_alpha_btn=0x7f060049;
-        public static final int api_guides=0x7f06001c;
-        public static final int app_name=0x7f060014;
-        public static final int common_cancel=0x7f060016;
-        public static final int common_img_tips=0x7f060017;
+        public static final int animation_cross_fading_text=0x7f06001a;
+        public static final int animation_pos_alpha_btn=0x7f060044;
+        public static final int api_guides=0x7f060017;
+        public static final int app_name=0x7f06000f;
+        public static final int common_cancel=0x7f060011;
+        public static final int common_img_tips=0x7f060012;
         /**  通用 开始 
          */
-        public static final int common_ok=0x7f060015;
-        public static final int common_submit=0x7f060018;
-        public static final int database_age=0x7f060034;
-        public static final int database_age_default=0x7f060035;
-        public static final int database_device_id=0x7f060031;
-        public static final int database_post=0x7f060032;
-        public static final int database_post_default=0x7f060033;
-        public static final int database_useful=0x7f060036;
-        public static final int database_useful_hint=0x7f060037;
-        public static final int feed_back=0x7f06001b;
-        public static final int file_save_cache=0x7f060029;
-        public static final int file_save_cache_dir=0x7f060028;
-        public static final int file_save_clear=0x7f06002c;
-        public static final int file_save_external=0x7f06002d;
-        public static final int file_save_external_private_dir=0x7f060030;
-        public static final int file_save_external_public_dir=0x7f06002f;
-        public static final int file_save_external_unvaliable=0x7f06002e;
-        public static final int file_save_internal=0x7f060026;
-        public static final int file_save_internal_dir=0x7f060027;
-        public static final int file_save_list=0x7f06002a;
-        public static final int file_save_save=0x7f06002b;
+        public static final int common_ok=0x7f060010;
+        public static final int common_submit=0x7f060013;
+        public static final int database_age=0x7f06002f;
+        public static final int database_age_default=0x7f060030;
+        public static final int database_device_id=0x7f06002c;
+        public static final int database_post=0x7f06002d;
+        public static final int database_post_default=0x7f06002e;
+        public static final int database_useful=0x7f060031;
+        public static final int database_useful_hint=0x7f060032;
+        public static final int feed_back=0x7f060016;
+        public static final int file_save_cache=0x7f060024;
+        public static final int file_save_cache_dir=0x7f060023;
+        public static final int file_save_clear=0x7f060027;
+        public static final int file_save_external=0x7f060028;
+        public static final int file_save_external_private_dir=0x7f06002b;
+        public static final int file_save_external_public_dir=0x7f06002a;
+        public static final int file_save_external_unvaliable=0x7f060029;
+        public static final int file_save_internal=0x7f060021;
+        public static final int file_save_internal_dir=0x7f060022;
+        public static final int file_save_list=0x7f060025;
+        public static final int file_save_save=0x7f060026;
         public static final int guides_alarm_add=0x7f06000a;
         /**  消息推送 结束 
  api guid 开始 
@@ -875,42 +875,37 @@ public final class R {
         public static final int guides_animator_pos_alpha=0x7f06000b;
         public static final int guides_contacts=0x7f06000c;
         public static final int guides_user_profile=0x7f06000d;
-        public static final int listview_array=0x7f060010;
-        public static final int listview_cursor=0x7f060011;
-        public static final int listview_cursor2=0x7f060012;
-        public static final int listview_custom=0x7f060013;
         /**  MainActivity 结束 
          */
-        public static final int main_title_desc=0x7f06001e;
-        public static final int msg_push=0x7f06001a;
-        public static final int offical_sample=0x7f06001d;
+        public static final int main_title_desc=0x7f060019;
+        public static final int msg_push=0x7f060015;
+        public static final int offical_sample=0x7f060018;
         /**  通用 结束 
  MainActivity 开始 
          */
-        public static final int offical_training=0x7f060019;
+        public static final int offical_training=0x7f060014;
         /**  training 结束 
  消息推送 开始 
          */
         public static final int push_jig=0x7f060007;
         public static final int push_xinge=0x7f060008;
-        public static final int sample_listview=0x7f06000f;
         /**  api guid 结束 
  officalsample 开始 
          */
         public static final int sample_spinner=0x7f06000e;
-        public static final int shared_preference_add=0x7f060023;
-        public static final int shared_preference_clear=0x7f060024;
-        public static final int shared_preference_no_settings=0x7f060025;
+        public static final int shared_preference_add=0x7f06001e;
+        public static final int shared_preference_clear=0x7f06001f;
+        public static final int shared_preference_no_settings=0x7f060020;
         /**  数据存储 开始 
          */
-        public static final int shared_preference_switch1=0x7f060020;
-        public static final int shared_preference_switch2=0x7f060021;
-        public static final int shared_preference_switch3=0x7f060022;
+        public static final int shared_preference_switch1=0x7f06001b;
+        public static final int shared_preference_switch2=0x7f06001c;
+        public static final int shared_preference_switch3=0x7f06001d;
         /**  app guides 结束 
  officalsample 开始 
          */
-        public static final int spinner_prompt=0x7f06004a;
-        public static final int spinner_res=0x7f06004b;
+        public static final int spinner_prompt=0x7f060045;
+        public static final int spinner_res=0x7f060046;
         public static final int training_database=0x7f060004;
         public static final int training_file_save=0x7f060003;
         /**  training 开始 
@@ -918,60 +913,60 @@ public final class R {
         public static final int training_fragment=0x7f060000;
         public static final int training_save_data=0x7f060001;
         public static final int training_shared_preference=0x7f060002;
-        public static final int umeng_common_action_cancel=0x7f060050;
-        public static final int umeng_common_action_continue=0x7f06004f;
-        public static final int umeng_common_action_info_exist=0x7f06004c;
-        public static final int umeng_common_action_pause=0x7f06004e;
-        public static final int umeng_common_download_failed=0x7f060056;
-        public static final int umeng_common_download_finish=0x7f060057;
-        public static final int umeng_common_download_notification_prefix=0x7f060051;
-        public static final int umeng_common_icon=0x7f06005a;
-        public static final int umeng_common_info_interrupt=0x7f06004d;
-        public static final int umeng_common_network_break_alert=0x7f060055;
-        public static final int umeng_common_patch_finish=0x7f060058;
-        public static final int umeng_common_pause_notification_prefix=0x7f060052;
-        public static final int umeng_common_silent_download_finish=0x7f060059;
-        public static final int umeng_common_start_download_notification=0x7f060053;
-        public static final int umeng_common_start_patch_notification=0x7f060054;
-        public static final int umeng_fb_back=0x7f06005d;
-        public static final int umeng_fb_contact_info=0x7f060060;
-        public static final int umeng_fb_contact_info_hint=0x7f06005b;
-        public static final int umeng_fb_contact_title=0x7f06005f;
-        public static final int umeng_fb_contact_update_at=0x7f06005c;
-        public static final int umeng_fb_notification_content_formatter_multiple_msg=0x7f060068;
-        public static final int umeng_fb_notification_content_formatter_single_msg=0x7f060067;
-        public static final int umeng_fb_notification_ticker_text=0x7f060066;
-        public static final int umeng_fb_powered_by=0x7f060065;
-        public static final int umeng_fb_reply_content_default=0x7f060063;
-        public static final int umeng_fb_reply_content_hint=0x7f060061;
-        public static final int umeng_fb_reply_date_default=0x7f060064;
-        public static final int umeng_fb_send=0x7f060062;
-        public static final int umeng_fb_title=0x7f06005e;
-        public static final int validation_error_msg_credit_card=0x7f060077;
-        public static final int validation_error_msg_digits=0x7f060078;
-        public static final int validation_error_msg_email=0x7f06007f;
-        public static final int validation_error_msg_equals=0x7f060080;
-        public static final int validation_error_msg_host=0x7f060082;
-        public static final int validation_error_msg_http_url=0x7f060083;
-        public static final int validation_error_msg_id_card=0x7f06007e;
-        public static final int validation_error_msg_ipv4=0x7f060084;
-        public static final int validation_error_msg_is_date=0x7f060079;
-        public static final int validation_error_msg_is_date_time=0x7f06007b;
-        public static final int validation_error_msg_is_future=0x7f06007c;
-        public static final int validation_error_msg_is_past=0x7f06007d;
-        public static final int validation_error_msg_is_time=0x7f06007a;
-        public static final int validation_error_msg_max_length=0x7f060085;
-        public static final int validation_error_msg_max_value=0x7f060086;
-        public static final int validation_error_msg_min_length=0x7f060087;
-        public static final int validation_error_msg_min_value=0x7f060088;
-        public static final int validation_error_msg_mobile_phone=0x7f060089;
-        public static final int validation_error_msg_not_blank=0x7f06008a;
-        public static final int validation_error_msg_notequals=0x7f060081;
-        public static final int validation_error_msg_numeric=0x7f06008b;
-        public static final int validation_error_msg_range_length=0x7f06008c;
-        public static final int validation_error_msg_range_value=0x7f06008d;
-        public static final int validation_error_msg_required=0x7f06008e;
-        public static final int validation_error_msg_vehicle=0x7f06008f;
+        public static final int umeng_common_action_cancel=0x7f06004b;
+        public static final int umeng_common_action_continue=0x7f06004a;
+        public static final int umeng_common_action_info_exist=0x7f060047;
+        public static final int umeng_common_action_pause=0x7f060049;
+        public static final int umeng_common_download_failed=0x7f060051;
+        public static final int umeng_common_download_finish=0x7f060052;
+        public static final int umeng_common_download_notification_prefix=0x7f06004c;
+        public static final int umeng_common_icon=0x7f060055;
+        public static final int umeng_common_info_interrupt=0x7f060048;
+        public static final int umeng_common_network_break_alert=0x7f060050;
+        public static final int umeng_common_patch_finish=0x7f060053;
+        public static final int umeng_common_pause_notification_prefix=0x7f06004d;
+        public static final int umeng_common_silent_download_finish=0x7f060054;
+        public static final int umeng_common_start_download_notification=0x7f06004e;
+        public static final int umeng_common_start_patch_notification=0x7f06004f;
+        public static final int umeng_fb_back=0x7f060058;
+        public static final int umeng_fb_contact_info=0x7f06005b;
+        public static final int umeng_fb_contact_info_hint=0x7f060056;
+        public static final int umeng_fb_contact_title=0x7f06005a;
+        public static final int umeng_fb_contact_update_at=0x7f060057;
+        public static final int umeng_fb_notification_content_formatter_multiple_msg=0x7f060063;
+        public static final int umeng_fb_notification_content_formatter_single_msg=0x7f060062;
+        public static final int umeng_fb_notification_ticker_text=0x7f060061;
+        public static final int umeng_fb_powered_by=0x7f060060;
+        public static final int umeng_fb_reply_content_default=0x7f06005e;
+        public static final int umeng_fb_reply_content_hint=0x7f06005c;
+        public static final int umeng_fb_reply_date_default=0x7f06005f;
+        public static final int umeng_fb_send=0x7f06005d;
+        public static final int umeng_fb_title=0x7f060059;
+        public static final int validation_error_msg_credit_card=0x7f060072;
+        public static final int validation_error_msg_digits=0x7f060073;
+        public static final int validation_error_msg_email=0x7f06007a;
+        public static final int validation_error_msg_equals=0x7f06007b;
+        public static final int validation_error_msg_host=0x7f06007d;
+        public static final int validation_error_msg_http_url=0x7f06007e;
+        public static final int validation_error_msg_id_card=0x7f060079;
+        public static final int validation_error_msg_ipv4=0x7f06007f;
+        public static final int validation_error_msg_is_date=0x7f060074;
+        public static final int validation_error_msg_is_date_time=0x7f060076;
+        public static final int validation_error_msg_is_future=0x7f060077;
+        public static final int validation_error_msg_is_past=0x7f060078;
+        public static final int validation_error_msg_is_time=0x7f060075;
+        public static final int validation_error_msg_max_length=0x7f060080;
+        public static final int validation_error_msg_max_value=0x7f060081;
+        public static final int validation_error_msg_min_length=0x7f060082;
+        public static final int validation_error_msg_min_value=0x7f060083;
+        public static final int validation_error_msg_mobile_phone=0x7f060084;
+        public static final int validation_error_msg_not_blank=0x7f060085;
+        public static final int validation_error_msg_notequals=0x7f06007c;
+        public static final int validation_error_msg_numeric=0x7f060086;
+        public static final int validation_error_msg_range_length=0x7f060087;
+        public static final int validation_error_msg_range_value=0x7f060088;
+        public static final int validation_error_msg_required=0x7f060089;
+        public static final int validation_error_msg_vehicle=0x7f06008a;
     }
     public static final class style {
         /** 

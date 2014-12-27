@@ -9,7 +9,7 @@ package com.wchhuangya.developer.common;
  * <p>
  * 常量类
  * </p>
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-8-25 上午9:06:37	

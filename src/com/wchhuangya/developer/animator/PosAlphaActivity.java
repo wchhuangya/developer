@@ -19,7 +19,7 @@ import com.wchhuangya.developer.core.BaseActivity;
 
 /**
  * 改变位置、alpha值的动画示例
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-11-24 下午1:23:27	

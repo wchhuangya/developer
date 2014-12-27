@@ -15,7 +15,7 @@ import com.wchhuangya.developer.core.DeveloperApplication;
 
 /**
  * 文件操作助手类
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-9 下午4:04:33	

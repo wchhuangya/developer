@@ -22,7 +22,7 @@ import com.wchhuangya.developer.util.LogHelper;
 
 /**
  * 文件保存操作类
- * @company WSuperman
+ * @company gsww
  * @project developer
  * @author wchhuangya
  * @date 2014-12-4 下午4:54:26	
