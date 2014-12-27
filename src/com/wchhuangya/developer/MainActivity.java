@@ -28,6 +28,7 @@ import com.wchhuangya.developer.contacts.UserProfileActivity;
 import com.wchhuangya.developer.core.BaseActivity;
 import com.wchhuangya.developer.fragment.TrainingFragment;
 import com.wchhuangya.developer.listview.ListviewArrayActivity;
+import com.wchhuangya.developer.listview.ListviewCursor2Activity;
 import com.wchhuangya.developer.listview.ListviewCursorActivity;
 import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
@@ -346,6 +347,12 @@ public class MainActivity extends BaseActivity {
 		map = new LinkedHashMap<String, Object>();
 		map.put("title", getResources().getString(R.string.listview_cursor));
 		map.put("activity", ListviewCursorActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.listview_cursor2));
+		map.put("activity", ListviewCursor2Activity.class);
 		map.put("hasChild", false);
 		singleList.add(map);
 		

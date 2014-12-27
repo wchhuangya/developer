@@ -144,6 +144,12 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".listview.ListviewCursor2Activity"
+            android:label="@string/listview_cursor2"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
         <!-- officalsample 结束 -->
 
         <meta-data
