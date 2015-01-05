@@ -31,6 +31,8 @@ import com.wchhuangya.developer.listview.ListviewArrayActivity;
 import com.wchhuangya.developer.listview.ListviewCursor2Activity;
 import com.wchhuangya.developer.listview.ListviewCursorActivity;
 import com.wchhuangya.developer.listview.ListviewCustomActivity;
+import com.wchhuangya.developer.listview.ListviewExpandActivity;
+import com.wchhuangya.developer.listview.ListviewSeparatorsActivity;
 import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
 import com.wchhuangya.developer.savedata.FileSaveActivity;
@@ -360,6 +362,18 @@ public class MainActivity extends BaseActivity {
 		map = new LinkedHashMap<String, Object>();
 		map.put("title", getResources().getString(R.string.listview_custom));
 		map.put("activity", ListviewCustomActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.listview_separators));
+		map.put("activity", ListviewSeparatorsActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.listview_expandable));
+		map.put("activity", ListviewExpandActivity.class);
 		map.put("hasChild", false);
 		singleList.add(map);
 		

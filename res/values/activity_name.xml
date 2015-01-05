@@ -30,5 +30,7 @@
     <string name="listview_cursor">数据来源于指向数据加的游标（一列）</string>
     <string name="listview_cursor2">数据来源于指向数据加的游标2（两列）</string>
     <string name="listview_custom">自定义适配器</string>
+    <string name="listview_separators">ListView的分隔线</string>
+    <string name="listview_expandable">可以展开隐藏元素的ListView</string>
     <!-- officalsample 结束 -->
 </resources>
