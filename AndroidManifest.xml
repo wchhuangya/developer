@@ -158,7 +158,13 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".listview.ListviewSeparatorsActivity"
-            android:label="@string/listview_custom"
+            android:label="@string/listview_separators"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".listview.ListviewExpandActivity"
+            android:label="@string/listview_expandable"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />
