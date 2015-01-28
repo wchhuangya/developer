@@ -37,6 +37,7 @@ import com.wchhuangya.developer.officalsample.SpinnerActivity;
 import com.wchhuangya.developer.savedata.DatabaseActivity;
 import com.wchhuangya.developer.savedata.FileSaveActivity;
 import com.wchhuangya.developer.savedata.SharedPreferencesActivity;
+import com.wchhuangya.developer.test.TestActivityManagerActivity;
 import com.wchhuangya.developer.umeng.FeedbackActivity;
 
 /**
@@ -131,6 +132,7 @@ public class MainActivity extends BaseActivity {
 		getGuidesContactsData("guidescontacts");
 		getOfficalSampleData("sample");
 		getListviewData("listview");
+		getTestData("test");
 	}
 	
 	@Override
@@ -185,6 +187,12 @@ public class MainActivity extends BaseActivity {
 		map = new LinkedHashMap<String, Object>();
 		map.put("title", getResources().getString(R.string.offical_sample));
 		map.put("activity", "sample");
+		map.put("hasChild", true);
+		singleList.add(map);
+
+		map = new LinkedHashMap<String, Object>();
+		map.put("title", getResources().getString(R.string.test));
+		map.put("activity", "test");
 		map.put("hasChild", true);
 		singleList.add(map);
 		
@@ -374,6 +382,21 @@ public class MainActivity extends BaseActivity {
 		map = new LinkedHashMap<String, Object>();
 		map.put("title", getResources().getString(R.string.listview_expandable));
 		map.put("activity", ListviewExpandActivity.class);
+		map.put("hasChild", false);
+		singleList.add(map);
+		
+		mAllMap.put(sign, singleList);
+	}
+	/**
+	 * 获取测试数据
+	 * @param sign - 要保存数据的map的键
+	 */
+	private void getTestData(String sign){
+		List<Map<String,Object>> singleList = new ArrayList<Map<String,Object>>();
+		Map<String, Object> map = new LinkedHashMap<String, Object>();
+		
+		map.put("title", getResources().getString(R.string.test_activitymanager));
+		map.put("activity", TestActivityManagerActivity.class);
 		map.put("hasChild", false);
 		singleList.add(map);
 		

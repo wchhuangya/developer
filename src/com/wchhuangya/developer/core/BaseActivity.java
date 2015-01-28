@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Rect;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.view.View;
@@ -41,7 +42,7 @@ import com.wchhuangya.developer.util.CompleteQuit;
  *
  */
 @SuppressWarnings("deprecation")
-public class BaseActivity extends Activity {
+public class BaseActivity extends FragmentActivity {
 	/*************全局开始*************/
 	/** Activity对象 */
 	protected Activity activity;

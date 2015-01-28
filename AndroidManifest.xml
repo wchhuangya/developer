@@ -169,6 +169,15 @@
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="adjustResize" />
         <!-- officalsample 结束 -->
+        
+        <!-- test 开始 -->
+        <activity
+            android:name=".test.TestActivityManagerActivity"
+            android:label="@string/listview_expandable"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- test 结束 -->
 
         <meta-data
             android:name="UMENG_APPKEY"

@@ -33,4 +33,8 @@
     <string name="listview_separators">ListView的分隔线</string>
     <string name="listview_expandable">可以展开隐藏元素的ListView</string>
     <!-- officalsample 结束 -->
+    
+    <!-- test 开始 -->
+    <string name="test_activitymanager">测试ActivityManager</string>
+    <!-- test 结束 -->
 </resources>
