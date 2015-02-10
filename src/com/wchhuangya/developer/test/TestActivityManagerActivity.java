@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import com.wchhuangya.developer.R;
 import com.wchhuangya.developer.core.BaseActivity;
+import com.wchhuangya.developer.util.ActivityManagerHelper;
 import com.wchhuangya.developer.util.LogHelper;
 
 
@@ -40,6 +41,7 @@ public class TestActivityManagerActivity extends BaseActivity {
 		
 		init();
 		getRunningTasks();
+		ActivityManagerHelper.isAppForeground(this);
 	}
 	/**
 	 * init:初始化控件的方法

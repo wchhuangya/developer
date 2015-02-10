@@ -21,7 +21,7 @@ import android.os.Bundle;
  *
  */
 public class ManifestHelper {
-
+	
 	/**
 	 * 根据key值获取manifest里的meta-data值
 	 * @param context	-	应用上下文
